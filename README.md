@@ -8,7 +8,12 @@
   <ul>
     <li>Mínimo python 3.9 instalado</li>
     <li>Git instalado</li>
+    <li><strong>virtualenv</strong> instalado (si no lo tienes, sigue los pasos a continuación)</li>
   </ul>
+
+  <h2>Instalación de virtualenv</h2>
+  <p>Si no tienes instalado <strong>virtualenv</strong>, puedes instalarlo con el siguiente comando:</p>
+  <pre><code>pip install virtualenv</code></pre>
 
   <h2>Pasos de Instalación y Configuración</h2>
   <ol>
