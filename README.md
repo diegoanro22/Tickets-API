@@ -61,7 +61,7 @@ python manage.py migrate</code></pre>
     <li>
       <strong>Ejecutar el servidor de desarrollo:</strong>
       <pre><code>python manage.py runserver</code></pre>
-      <p>Ahora puedes acceder a la aplicación en <a href="http://127.0.0.1:8000/api/incidents/" target="_blank">http://127.0.0.1:8000/api/incidents/</a>.</p>
+      <p>Ahora puedes acceder a la aplicación en <a href="http://127.0.0.1:8000/docs" target="_blank">http://127.0.0.1:8000/docs</a>.</p>
     </li>
   </ol>
 
