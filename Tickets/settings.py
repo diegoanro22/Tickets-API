@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'Api_db',
         'USER': 'postgres',
         'PASSWORD': 'diegodb',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '5432'
     }
 }
