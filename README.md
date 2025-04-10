@@ -8,7 +8,12 @@
   <ul>
     <li>Mínimo python 3.9 instalado</li>
     <li>Git instalado</li>
+    <li><strong>virtualenv</strong> instalado (si no lo tienes, sigue los pasos a continuación)</li>
   </ul>
+
+  <h2>Instalación de virtualenv</h2>
+  <p>Si no tienes instalado <strong>virtualenv</strong>, puedes instalarlo con el siguiente comando:</p>
+  <pre><code>pip install virtualenv</code></pre>
 
   <h2>Pasos de Instalación y Configuración</h2>
   <ol>
@@ -56,7 +61,7 @@ python manage.py migrate</code></pre>
     <li>
       <strong>Ejecutar el servidor de desarrollo:</strong>
       <pre><code>python manage.py runserver</code></pre>
-      <p>Ahora puedes acceder a la aplicación en <a href="http://127.0.0.1:8000/api/v1/incidents/" target="_blank">http://127.0.0.1:8000/api/v1/incidents/</a>.</p>
+      <p>Ahora puedes acceder a la aplicación en <a href="http://127.0.0.1:8000/docs" target="_blank">http://127.0.0.1:8000/docs</a>.</p>
     </li>
   </ol>
 
