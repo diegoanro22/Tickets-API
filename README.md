@@ -25,7 +25,8 @@ cd Tickets-API</code></pre>
     </li>
     <li>
       <strong>Levantando los contenedores:</strong>
-      <pre><code>docker-compose up --build</code></pre>
+      <pre><code>docker compose build</code></pre>
+      <pre><code>docker compose up</code></pre>
       <p>Este comando construirá las imágenes necesarias y levantará tanto el contenedor de la API como el de la base de datos PostgreSQL.</p>
     </li>
     <li>
