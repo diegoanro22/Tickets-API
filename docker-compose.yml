@@ -4,7 +4,6 @@ services:
     build: .
     volumes:
       - .:/app
-      - ./.env:/app/.env   # Monta el archivo .env como archivo editable dentro del contenedor
     ports:
       - "8000:8000"
     depends_on:
