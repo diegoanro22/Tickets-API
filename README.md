@@ -21,7 +21,7 @@ cd Tickets-API</code></pre>
     <li>
       <strong>Copiar el archivo .env.example a .env:</strong>
       <pre><code>cp .env.example .env</code></pre>
-      <p>Asegúrate de actualizar las credenciales dentro del archivo `.env` antes de continuar.</p>
+      <p>Asegúrate de actualizar las credenciales de user y password dentro del archivo `.env` antes de continuar.</p>
     </li>
     <li>
       <strong>Levantando los contenedores:</strong>
