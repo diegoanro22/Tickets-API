@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG') == 'True'  # Convierte el valor en un booleano
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(',')
-
+print("ALLOWED_HOSTS:", os.getenv('ALLOWED_HOSTS'))
 
 # Application definition
 
