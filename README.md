@@ -24,6 +24,13 @@ cd Tickets-API</code></pre>
       <p>Asegúrate de actualizar las credenciales dentro del archivo `.env` antes de continuar.</p>
     </li>
     <li>
+      <strong>Generar una nueva SECRET_KEY de Django:</strong>
+      <p>La <code>SECRET_KEY</code> es necesaria para que Django funcione correctamente. Puedes generar una clave nueva ejecutando el siguiente comando en tu terminal Python:</p>
+      <pre><code>python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"</code></pre>
+      <p>Luego, copia el valor generado y pégalo en el archivo <code>.env</code> en la línea correspondiente, por ejemplo:</p>
+      <pre><code>SECRET_KEY='tu-clave-generada-aqui'</code></pre>
+    </li>
+    <li>
       <strong>Levantando los contenedores:</strong>
       <pre><code>docker-compose up --build</code></pre>
       <p>Este comando construirá las imágenes necesarias y levantará tanto el contenedor de la API como el de la base de datos PostgreSQL.</p>
