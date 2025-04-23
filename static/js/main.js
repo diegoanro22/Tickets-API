@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("Archivo JS cargado correctamente");
+
     // Le damos color de fondo a la página y algo de padding
     document.body.style.backgroundColor = "#f0f0f0";
     document.body.style.margin = "0";
@@ -66,6 +68,7 @@ function renderListView() {
 
     // Cargar todos los incidentes
     fetchAllIncidents().then(incidents => {
+        console.log("Incidentes recibidos:", incidents); 
         displayIncidentList(incidents, listContainer);
     });
 
